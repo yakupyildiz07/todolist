@@ -1,0 +1,172 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+}
+
+.task-create {
+  width: 1200px;
+  margin: 20px 0;
+  border: 1px solid green;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: cadetblue;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-form label {
+  margin: 10px 0;
+}
+
+.task-form input,
+textarea {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.task-form button {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.task-show {
+  border: 1px solid green;
+  border-radius: 30px;
+  width: 350px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  background-color: cadetblue;
+
+}
+.task-show h3,p {
+  margin: auto;
+  overflow: auto;
+
+}
+.task-show-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.task-edit {
+  padding: 5px;
+  font-size: 15px;
+  width: 100px;
+  border: none;
+  border-radius: 30px;
+  background-color: blue;
+  color: white;
+  margin-right: 10px;
+}
+.task-delete {
+  padding: 5px;
+  font-size: 15px;
+  width: 60px;
+  border: none;
+  border-radius: 30px;
+  background-color: red;
+  color: white;
+  margin-right: 10px;
+}
+.task-update {
+  width: 100%;
+}
+
+.task-form2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-form2 label {
+  margin: 10px 0;
+}
+
+.task-form2 input,
+textarea {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.task-form2 button {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.color {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border: 1px solid green;
+  border-radius: 40px;
+  margin: 20px;
+  width: 84%;
+  background-color: cadetblue;
+
+}
+
+.color p {
+  margin-top: -25px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .task-create,
+  .task-show,
+  .color {
+    width: auto;
+  }
+  .task-list {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .task-create {
+    width: 750px;
+  }
+  .color {
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1215px) {
+  .task-show{
+    width: 460px;
+  }
+  .color {
+    width: 1000px;
+  }
+  .task-create {
+    width: 1000px;
+  }
+}

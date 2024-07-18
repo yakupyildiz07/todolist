@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "id": "7d49",
+      "title": "Pazara Git",
+      "taskDesc": "1 kg soğan\n1 kg patates\n1 kg domates"
+    },
+    {
+      "id": "6b70",
+      "title": "front-end eğitimi",
+      "taskDesc": "redux ne demektir araştır ve öğren"
+    },
+    {
+      "id": "4428",
+      "title": "",
+      "taskDesc": ""
+    }
+  ]
+}
