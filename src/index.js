@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { Provider } from "./context/task";
 
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider>

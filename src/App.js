@@ -20,7 +20,7 @@ function App() {
     <div className="App"  style={{ backgroundColor: `${color}` }}>
       
       <TaskCreate />
-      <p className="is-size-3 is-underlined">Görevler:</p>
+      <p className="is-size-1 is-underlined">Görevler:</p>
       <TaskList />
       <BgSelecter changeri={changer} />
     </div>
