@@ -37,7 +37,8 @@ function TaskShow({ taski }) {
             <h3 className="is-underlined">Göreviniz:</h3>
             <p>{taski.title}</p>
             <h3 className="is-underlined">Yapılacaklar:</h3>
-            <p>{taski.taskDesc}</p>
+            {/* <p>{taski.taskDesc}</p> */}
+            <p>{taski.body}</p>
           </div>
           <div>
             <button className="task-delete" onClick={handleDelete}>

@@ -4,7 +4,7 @@ import TaskList from "./components/TaskList";
 import { useEffect, useContext, useState } from "react";
 import tasksContext from "./context/task";
 import BgSelecter from "./components/BgSelecter";
-import "bulma/css/bulma.min.css";
+import "bulma/css/bulma.min.css"
 function App() {
   // debugger;
   const [color, setcolor] = useState("");
@@ -18,6 +18,7 @@ function App() {
 
   return (
     <div className="App"  style={{ backgroundColor: `${color}` }}>
+      
       <TaskCreate />
       <p className="is-size-3 is-underlined">Görevler:</p>
       <TaskList />
